@@ -1,4 +1,4 @@
-﻿body {
+body {
   min-width: 1100px;
 }
 header {
@@ -41,9 +41,12 @@ h1 {
 }
 
 #messgerät{
- position:absolute;
+ /*position:absolute;
   top:40px;
-  left:-355px;
+  left:-355px;*/
+  margin-top: 15px;
+  margin-left: 12px;
+  float:left;
   height:188px;
   width:159px;
 }
@@ -82,7 +85,6 @@ h1 {
 
 #logoleiste{
   position: absolute;
-
   top: 250px;
   left:195px;
   opacity: 0.2;
@@ -96,6 +98,9 @@ main {
   background-color: #FFF5F5;
 }
 
+div {
+  border:black sold 1px;
+}
 .text {
 
   width:600px;

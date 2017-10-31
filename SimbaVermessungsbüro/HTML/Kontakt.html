@@ -6,6 +6,13 @@
   <title>SimBa Vermessungsbüro</title>
   <link rel="stylesheet" href="../CSS/theme.min.css">
   <link rel="stylesheet" href="../CSS/main.css">
+  <style>
+    @media (max-width:767px) {
+    #logoleiste {
+      display: none;
+    }
+}
+  </style>
 </head>
 <body>
   <header>
@@ -63,15 +70,18 @@
       </ul>
     </div>
   </header>
+  <aside>
+    <img id="messgerät" src="../Medien/messgerät.png">
+    <img id="logoleiste" src="../Medien/Logoleiste.png"></img>
+  </aside>
   <main>
-  <img id="logoleiste" src="../Medien/Logoleiste.png"></img>
   <div class="container">
     <div class="row">
-    <div class="col-sm-2">
-    <img id="messgerät" src="../Medien/messgerät.png">
-  </div>
-    <div id="content"  class="col-sm-10">
-    </br>
+      <div class="col-sm-2">
+
+      </div>
+    <div id="content"  class="col-sm-8">
+      </br>
       <h3 class="text">Kontakt</h3></br>
       <p class="text">
         Unser Büro finden Sie in der:</br></br>
@@ -85,6 +95,7 @@
       <br>
       <img src="../Medien/DSCN3009.jpg" height="200" width="400">
     </div>
+  </div>
   </main>
   <footer>
     <div id="impressum" >

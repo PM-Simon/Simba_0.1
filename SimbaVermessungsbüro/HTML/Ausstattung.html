@@ -6,6 +6,19 @@
   <title>SimBa Vermessungsbüro</title>
   <link rel="stylesheet" href="../CSS/theme.min.css">
   <link rel="stylesheet" href="../CSS/main.css">
+  <style>
+    @media (max-width:1591px) {
+      .img {
+        display: none;
+      }
+    }
+
+    @media (max-width:991px) {
+      #logoleiste {
+         display: none;
+     }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -64,12 +77,14 @@
       </ul>
     </div>
   </header>
+  <aside>
+    <img id="messgerät" src="../Medien/messgerät.png">
+    <img id="logoleiste" src="../Medien/Logoleiste.png"></img>
+  </aside>
   <main>
-  <img id="logoleiste" src="../Medien/Logoleiste_lang.png"></img>
   <div class="container">
     <div class="row">
       <div class="col-sm-1">
-      <img id="messgerät" src="../Medien/messgerät.png">
     </div>
     <div id="content" class="col-sm-8">
     </br>
@@ -115,12 +130,12 @@
       </p>
     </div>
     <div class="col-sm-2">
-      <img src="../Medien/DSCN3006 (2).jpg" style="margin-top:150px;" height="150px" width="200px">
-      <img src="../Medien/DSCN2977 (2).jpg" style="margin-top:220px;" height="200px" width="210px">
-      <img src="../Medien/DSCN3014 (2).jpg" style="margin-top:190px;" height="200px" width="190px">
+      <img class="img" src="../Medien/DSCN3006 (2).jpg" style="margin-top:150px;" height="150px" width="200px">
+      <img class="img" src="../Medien/DSCN2977 (2).jpg" style="margin-top:220px;" height="200px" width="210px">
+      <img class="img" src="../Medien/DSCN3014 (2).jpg" style="margin-top:190px;" height="200px" width="190px">
     </div>
       <div class="col-sm-1">
-        <img src="../Medien/DSCN2992 (2).jpg" style="margin-top:937px;margin-left:40px;" height="150px" width="230px">
+        <img class="img" src="../Medien/DSCN2992 (2).jpg" style="margin-top:937px;margin-left:40px;" height="150px" width="230px">
     </div>
   </div>
 </div>
